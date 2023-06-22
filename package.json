@@ -1,0 +1,22 @@
+{
+  "name": "editorjs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/editorjs__header": "^2.6.0",
+    "sass": "^1.63.6",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@editorjs/editorjs": "^2.27.1",
+    "@editorjs/header": "^2.7.0",
+    "@editorjs/list": "^1.8.0"
+  }
+}
